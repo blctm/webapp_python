@@ -8,8 +8,8 @@ current_dir = os.path.dirname(os.path.abspath("scaler.pkl"))
 print(current_dir)
 
 # Load the scaler and model with full paths
-scaler_path = r"C:\Users\blinares\MINETHIC\scaler.pkl"
-model_path = r"C:\Users\blinares\MINETHIC\random_forest_model.pkl"
+scaler_path = "scaler.pkl"
+model_path = "random_forest_model.pkl"
 
 # Load the scaler and model
 scaler = joblib.load(scaler_path)
